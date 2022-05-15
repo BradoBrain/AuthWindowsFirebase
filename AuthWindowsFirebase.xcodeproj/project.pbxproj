@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F3A7FC9283148EE00E95A6E /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A7FC8283148EE00E95A6E /* ViewModel.swift */; };
+		0F3A7FCB28314C2800E95A6E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F3A7FCA28314C2800E95A6E /* GoogleService-Info.plist */; };
+		0F8B4E7B2831528C005E3F25 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8B4E7A2831528C005E3F25 /* AppView.swift */; };
+		0FA4B57F283041CB00C74FE0 /* SingUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA4B57E283041CB00C74FE0 /* SingUpView.swift */; };
+		0FA4B5812830464300C74FE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FA4B5802830464300C74FE0 /* Assets.xcassets */; };
 		0FD185D228302B71005887FF /* AuthWindowsFirebaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD185D128302B71005887FF /* AuthWindowsFirebaseApp.swift */; };
 		0FD185D428302B71005887FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD185D328302B71005887FF /* ContentView.swift */; };
-		0FD185D628302B73005887FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FD185D528302B73005887FF /* Assets.xcassets */; };
 		0FD185D928302B73005887FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FD185D828302B73005887FF /* Preview Assets.xcassets */; };
+		0FD185E128302BC6005887FF /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD185E028302BC6005887FF /* SignInView.swift */; };
+		0FD185E328303068005887FF /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD185E228303068005887FF /* CustomButtonStyle.swift */; };
+		270B11A1A1B28E25FCF461BF /* Pods_AuthWindowsFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5E804295E16F59EC76A01D /* Pods_AuthWindowsFirebase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A5E804295E16F59EC76A01D /* Pods_AuthWindowsFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuthWindowsFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F3A7FC8283148EE00E95A6E /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		0F3A7FCA28314C2800E95A6E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0F8B4E7A2831528C005E3F25 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		0FA4B57E283041CB00C74FE0 /* SingUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpView.swift; sourceTree = "<group>"; };
+		0FA4B5802830464300C74FE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FD185CE28302B71005887FF /* AuthWindowsFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthWindowsFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FD185D128302B71005887FF /* AuthWindowsFirebaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthWindowsFirebaseApp.swift; sourceTree = "<group>"; };
 		0FD185D328302B71005887FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		0FD185D528302B73005887FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FD185D828302B73005887FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0FD185E028302BC6005887FF /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		0FD185E228303068005887FF /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
+		53833413138BF88F17D17FB7 /* Pods-AuthWindowsFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthWindowsFirebase.release.xcconfig"; path = "Target Support Files/Pods-AuthWindowsFirebase/Pods-AuthWindowsFirebase.release.xcconfig"; sourceTree = "<group>"; };
+		A73D50ED169CD7B5D23E7B71 /* Pods-AuthWindowsFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthWindowsFirebase.debug.xcconfig"; path = "Target Support Files/Pods-AuthWindowsFirebase/Pods-AuthWindowsFirebase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +42,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270B11A1A1B28E25FCF461BF /* Pods_AuthWindowsFirebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F3A7FC7283148D500E95A6E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0F3A7FC8283148EE00E95A6E /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0F8B4E7C2831529F005E3F25 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				0FD185E028302BC6005887FF /* SignInView.swift */,
+				0FA4B57E283041CB00C74FE0 /* SingUpView.swift */,
+				0FD185E228303068005887FF /* CustomButtonStyle.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 		0FD185C528302B71005887FF = {
 			isa = PBXGroup;
 			children = (
 				0FD185D028302B71005887FF /* AuthWindowsFirebase */,
 				0FD185CF28302B71005887FF /* Products */,
+				2D2FD183B2B60FC71DFEC63C /* Pods */,
+				A68148CA9E070836FDF37D8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				0FD185D128302B71005887FF /* AuthWindowsFirebaseApp.swift */,
-				0FD185D328302B71005887FF /* ContentView.swift */,
-				0FD185D528302B73005887FF /* Assets.xcassets */,
+				0F3A7FC7283148D500E95A6E /* ViewModel */,
+				0FD185DF28302BAA005887FF /* Views */,
 				0FD185D728302B73005887FF /* Preview Content */,
 			);
 			path = AuthWindowsFirebase;
@@ -67,6 +104,35 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		0FD185DF28302BAA005887FF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0FD185D328302B71005887FF /* ContentView.swift */,
+				0F8B4E7A2831528C005E3F25 /* AppView.swift */,
+				0F8B4E7C2831529F005E3F25 /* Auth */,
+				0FA4B5802830464300C74FE0 /* Assets.xcassets */,
+				0F3A7FCA28314C2800E95A6E /* GoogleService-Info.plist */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2D2FD183B2B60FC71DFEC63C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A73D50ED169CD7B5D23E7B71 /* Pods-AuthWindowsFirebase.debug.xcconfig */,
+				53833413138BF88F17D17FB7 /* Pods-AuthWindowsFirebase.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A68148CA9E070836FDF37D8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A5E804295E16F59EC76A01D /* Pods_AuthWindowsFirebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FD185DC28302B73005887FF /* Build configuration list for PBXNativeTarget "AuthWindowsFirebase" */;
 			buildPhases = (
+				B7D52C39AF08882C7C58B1C8 /* [CP] Check Pods Manifest.lock */,
 				0FD185CA28302B71005887FF /* Sources */,
 				0FD185CB28302B71005887FF /* Frameworks */,
 				0FD185CC28302B71005887FF /* Resources */,
+				1856FD5013DC8CC1313CF84C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,19 +193,67 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FA4B5812830464300C74FE0 /* Assets.xcassets in Resources */,
 				0FD185D928302B73005887FF /* Preview Assets.xcassets in Resources */,
-				0FD185D628302B73005887FF /* Assets.xcassets in Resources */,
+				0F3A7FCB28314C2800E95A6E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1856FD5013DC8CC1313CF84C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AuthWindowsFirebase/Pods-AuthWindowsFirebase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AuthWindowsFirebase/Pods-AuthWindowsFirebase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AuthWindowsFirebase/Pods-AuthWindowsFirebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7D52C39AF08882C7C58B1C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AuthWindowsFirebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0FD185CA28302B71005887FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FA4B57F283041CB00C74FE0 /* SingUpView.swift in Sources */,
+				0FD185E128302BC6005887FF /* SignInView.swift in Sources */,
 				0FD185D428302B71005887FF /* ContentView.swift in Sources */,
+				0F8B4E7B2831528C005E3F25 /* AppView.swift in Sources */,
+				0FD185E328303068005887FF /* CustomButtonStyle.swift in Sources */,
+				0F3A7FC9283148EE00E95A6E /* ViewModel.swift in Sources */,
 				0FD185D228302B71005887FF /* AuthWindowsFirebaseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +377,7 @@
 		};
 		0FD185DD28302B73005887FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A73D50ED169CD7B5D23E7B71 /* Pods-AuthWindowsFirebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +407,7 @@
 		};
 		0FD185DE28302B73005887FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53833413138BF88F17D17FB7 /* Pods-AuthWindowsFirebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
