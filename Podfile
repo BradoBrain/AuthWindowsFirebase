@@ -8,5 +8,6 @@ target 'AuthWindowsFirebase' do
 pod 'FirebaseCore'
 pod 'FirebaseAuth'
 pod 'Firebase'
+pod 'GoogleSignIn'
 
 end

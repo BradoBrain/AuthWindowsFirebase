@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F0EBDF02833CA9300876345 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F0EBDEF2833CA9300876345 /* GoogleService-Info.plist */; };
+		0F0EBDF32833D3DE00876345 /* GoogleButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0EBDF22833D3DE00876345 /* GoogleButtonStyle.swift */; };
 		0F3A7FC9283148EE00E95A6E /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A7FC8283148EE00E95A6E /* ViewModel.swift */; };
-		0F3A7FCB28314C2800E95A6E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F3A7FCA28314C2800E95A6E /* GoogleService-Info.plist */; };
 		0F8B4E7B2831528C005E3F25 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8B4E7A2831528C005E3F25 /* AppView.swift */; };
 		0FA4B57F283041CB00C74FE0 /* SingUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA4B57E283041CB00C74FE0 /* SingUpView.swift */; };
 		0FA4B5812830464300C74FE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FA4B5802830464300C74FE0 /* Assets.xcassets */; };
@@ -22,8 +23,10 @@
 
 /* Begin PBXFileReference section */
 		0A5E804295E16F59EC76A01D /* Pods_AuthWindowsFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuthWindowsFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F0EBDEF2833CA9300876345 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0F0EBDF12833CBA700876345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0F0EBDF22833D3DE00876345 /* GoogleButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleButtonStyle.swift; sourceTree = "<group>"; };
 		0F3A7FC8283148EE00E95A6E /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		0F3A7FCA28314C2800E95A6E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0F8B4E7A2831528C005E3F25 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		0FA4B57E283041CB00C74FE0 /* SingUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpView.swift; sourceTree = "<group>"; };
 		0FA4B5802830464300C74FE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,6 +66,7 @@
 				0FD185E028302BC6005887FF /* SignInView.swift */,
 				0FA4B57E283041CB00C74FE0 /* SingUpView.swift */,
 				0FD185E228303068005887FF /* CustomButtonStyle.swift */,
+				0F0EBDF22833D3DE00876345 /* GoogleButtonStyle.swift */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -88,6 +92,7 @@
 		0FD185D028302B71005887FF /* AuthWindowsFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				0F0EBDF12833CBA700876345 /* Info.plist */,
 				0FD185D128302B71005887FF /* AuthWindowsFirebaseApp.swift */,
 				0F3A7FC7283148D500E95A6E /* ViewModel */,
 				0FD185DF28302BAA005887FF /* Views */,
@@ -111,7 +116,7 @@
 				0F8B4E7A2831528C005E3F25 /* AppView.swift */,
 				0F8B4E7C2831529F005E3F25 /* Auth */,
 				0FA4B5802830464300C74FE0 /* Assets.xcassets */,
-				0F3A7FCA28314C2800E95A6E /* GoogleService-Info.plist */,
+				0F0EBDEF2833CA9300876345 /* GoogleService-Info.plist */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,8 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FA4B5812830464300C74FE0 /* Assets.xcassets in Resources */,
+				0F0EBDF02833CA9300876345 /* GoogleService-Info.plist in Resources */,
 				0FD185D928302B73005887FF /* Preview Assets.xcassets in Resources */,
-				0F3A7FCB28314C2800E95A6E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +257,7 @@
 				0FD185E128302BC6005887FF /* SignInView.swift in Sources */,
 				0FD185D428302B71005887FF /* ContentView.swift in Sources */,
 				0F8B4E7B2831528C005E3F25 /* AppView.swift in Sources */,
+				0F0EBDF32833D3DE00876345 /* GoogleButtonStyle.swift in Sources */,
 				0FD185E328303068005887FF /* CustomButtonStyle.swift in Sources */,
 				0F3A7FC9283148EE00E95A6E /* ViewModel.swift in Sources */,
 				0FD185D228302B71005887FF /* AuthWindowsFirebaseApp.swift in Sources */,
@@ -387,6 +393,8 @@
 				DEVELOPMENT_TEAM = BBY7AP2J7L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AuthWindowsFirebase/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AuthWindowsFirebase;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -417,6 +425,8 @@
 				DEVELOPMENT_TEAM = BBY7AP2J7L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AuthWindowsFirebase/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AuthWindowsFirebase;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

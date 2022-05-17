@@ -11,6 +11,7 @@ import FirebaseAuth
 struct SignInView: View {
     @EnvironmentObject var viewModel: ViewModel
     
+    
     @State private var email = ""
     @State private var password = ""
     @State private var signUpPresented = false
@@ -69,6 +70,11 @@ struct SignInView: View {
                 })
                 .buttonStyle(CustomButtonStyle(buttonName: "Sing In"))
                  .offset(y: -10)
+                
+                Button("", action: {
+                    viewModel.handleLogin()
+                }) .buttonStyle(GoogleButtonStyle(buttonName: "Google"))
+                    .offset(y: 40)
                 
                 Button("Still don't have an accaunt?") {
                     signUpPresented.toggle()
